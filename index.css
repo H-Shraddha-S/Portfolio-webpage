@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    font-family: verdana;
+    scroll-behavior: smooth;
+}
+body{
+    min-height:400vh;
+    display: flex;
+    justify-content: center;
+    background-color:bisque;
+
+}
+.container{
+    width: 130vh;
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+
+    text-align: center;
+    box-shadow: 2px 5px 20px 5px grey;
+}
+.container .navbar{
+    width:130vh;
+    position: sticky;
+    top:0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+  
+}
+.container .navbar .logo{
+   padding-block: 30px;
+   color: rgb(245, 239, 239);
+   border-bottom: 1px solid grey;
+   font-size: 120%;
+  background-color:rgb(76, 73, 73);
+}
+.container .navbar .navinfo{
+    display: flex;
+    justify-content: space-between;
+    font-size: 130%;
+    padding: 15px;
+    font-weight: 400;
+    background-color:rgb(205, 163, 244);
+
+    border-bottom: 1px solid grey;
+}
+a{
+    color:rgb(5, 0, 0);
+
+    text-align: center;
+    align-items: center;
+}
+.container .navbar .navinfo a:hover{
+    color: rgb(88, 63, 63);
+
+    font-weight: 450;
+    transition:0.1s ease;
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 7%;
+   margin-bottom: 17%;
+
+}
+.home img{
+    max-height: auto;
+    max-width: 90%;
+
+    box-shadow: 5px 3px 10px 5px grey;
+    border:2px solid  rgb(18, 16, 19);
+    
+}
+.home .info1{
+    font-size: 150%;
+    font-weight: 400;
+    padding-top:8%;
+    padding-left:8%;
+
+}
+.home .img1{
+    margin-right: 5%;
+    padding-top:5%;
+}
+
+.education{
+    border-top:  5px solid rgb(186, 107, 219);
+
+    display: flex;
+    justify-content: space-between;
+    margin-left:10% ;
+    margin-right:10% ;
+
+}
+.education .info2{
+    font-size: 150%;
+    font-weight: 400;
+}
+.education .info2 h2{
+    font-size:130% ;
+    color:rgb(117, 30, 30);
+    margin: 2%;
+}
+ img{
+    max-height: 300px;
+    width:auto;
+ }
+ .project{
+    border-top:  5px solid rgb(186, 107, 219);
+
+    display: flex;
+    flex-direction: column;
+    margin-block:10%;
+ }
+ .project .calculator,.weather-app,.contact{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:5%;
+    font-size: 130%;
+    margin-left:10%;
+    margin-right:10%;
+    font-weight: 500;
+ }
+ .project .calculator .img3,.weather-app .img4,.contact .img5{
+    box-shadow: 5px 3px 10px 5px grey;
+    border: 1px solid grey;
+ }
+ .project  .contact .img5{
+   margin-left:10%;
+ }
+ .contact-us footer{
+    display: flex;
+    justify-content: space-around;
+    font-size: 130%;
+    color: white;
+    background-color:rgb(76, 73, 73);
+    padding:10%;
+ }
+
